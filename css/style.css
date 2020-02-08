@@ -135,12 +135,7 @@ header {
  #pricing #earlyant ol li, #pricing #lateant ol li, #pricing #western ol li, #pricing #eastern ol li, #pricing #early-modern ol li,  #pricing #industrial ol li, #pricing #mythology ol li{
 	 padding: 5px 0;
 }
- #pricing #tenor button, #pricing #bass button, #pricing #valve button {
-	 border: 10;
-	 margin: 15px 0;
-	 background-color: #f1c40f;
-	 font-weight: 400;
-}
+
  #pricing #western button:hover, #pricing #eastern button:hover, #pricing #early-modern button:hover, #pricing #industrial button:hover,#pricing #mythology button:hover {
 	 background-color: #4d00ff;
    color: #f1c40f;
@@ -191,7 +186,8 @@ header {
 	 background-color: #f1c40f;
 }
  #history input[type="submit"]:hover {
-	 background-color: orange;
+	 background-color: #4d00ff;
+	 color: #f1c40f;
 	 transition: background-color 1s;
 }
  @media (max-width: 650px) {
@@ -203,7 +199,7 @@ header {
 /**footer**/
 footer {
 	 margin-top: 30px;
-	 background-color: #ddd;
+	 /* background-color: #ddd; */
 	 padding: 20px;
 }
  footer ul {
